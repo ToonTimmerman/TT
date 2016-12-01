@@ -8,6 +8,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -525,6 +526,20 @@ h6,
 }
 #header3-p SMALL {
   color: #000000;
+}
+#header3-u .mbr-section-title,
+#header3-u .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-u B {
+  color: #000000;
+}
+#header3-u SMALL {
+  color: #000000;
+}
+#slider3-r .btn {
+  font-family: 'PT Serif', serif;
+  font-size: 10px;
 }
 #social-buttons4-k .mbr-section-title,
 #social-buttons4-k .btn-social {
