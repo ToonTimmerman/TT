@@ -527,6 +527,7 @@ h6,
 #header3-p SMALL {
   color: #000000;
 }
+<<<<<<< HEAD
 #header3-u .mbr-section-title,
 #header3-u .mbr-section-subtitle {
   text-align: center;
@@ -541,6 +542,8 @@ h6,
   font-family: 'PT Serif', serif;
   font-size: 10px;
 }
+=======
+>>>>>>> gh-pages
 #social-buttons4-k .mbr-section-title,
 #social-buttons4-k .btn-social {
   color: #fff;
