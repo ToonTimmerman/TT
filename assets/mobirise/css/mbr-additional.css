@@ -527,6 +527,13 @@ h6,
 #header3-p SMALL {
   color: #000000;
 }
+#header3-y .mbr-section-title,
+#header3-y .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-y SMALL {
+  color: #000000;
+}
 #header3-u .mbr-section-title,
 #header3-u .mbr-section-subtitle {
   text-align: center;
