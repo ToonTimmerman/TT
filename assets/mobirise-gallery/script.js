@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 (function ($) {
     
+=======
+(function($) {
+
+>>>>>>> gh-pages
     var isBuilder = $('html').hasClass('is-builder');
     if (!isBuilder) {
 
@@ -17,15 +22,24 @@
             return result ? result[1] : false;
         }
         /* google iframe api init function */
+<<<<<<< HEAD
         window.onYouTubeIframeAPIReady = function () {
             var ytp = ytp || {};
             ytp.YTAPIReady || (ytp.YTAPIReady = !0,
                 jQuery(document).trigger("YTAPIReady"));
             $('.video-slide').each(function (i) {
+=======
+        window.onYouTubeIframeAPIReady = function() {
+            var ytp = ytp || {};
+            ytp.YTAPIReady || (ytp.YTAPIReady = !0,
+                jQuery(document).trigger("YTAPIReady"));
+            $('.video-slide').each(function(i) {
+>>>>>>> gh-pages
                 var index = $(this).index();
                 var section = $(this).closest('section');
                 $('.video-container').eq(i).append('<div id ="mbr-video-' + i + '" class="mbr-background-video" data-video-num="' + i + '"></div>')
                     .append('<div class="item-overlay"></div>');
+<<<<<<< HEAD
                      $(this).attr('data-video-num', i);
                 if ($(this).attr('data-video-url').indexOf('vimeo.com') != -1) {
                     var options = {
@@ -39,6 +53,9 @@
                     player.playVideo = Vimeo.play;
                 } else {
                
+=======
+                $(this).attr('data-video-num', i);
+>>>>>>> gh-pages
                 var player = new YT.Player('mbr-video-' + i, {
                     height: '100%',
                     width: '100%',
@@ -46,7 +63,11 @@
                     events: {
                         'onReady': onPlayerReady,
                     }
+<<<<<<< HEAD
                 })}
+=======
+                })
+>>>>>>> gh-pages
                 players.push(player);
             });
         }
@@ -62,17 +83,82 @@
                 (quality || '') + 'default.jpg';
         }
     }
+<<<<<<< HEAD
     /* Masonry Grid */
     $(document).on('add.cards change.cards', function (event) {
+=======
+    var getPreviewUrlWithBestQuality = (function() {
+        var cache = {};
+        return function(id) {
+            var def = $.Deferred();
+            if (id in cache) {
+                if (cache[id]) {
+                    def.resolve(cache[id]);
+                } else {
+                    def.reject('Preview image not found.');
+                }
+            } else {
+                $('<img>').on('load', function() {
+                    if (120 == (this.naturalWidth || this.width)) {
+                        // selection of preview in the best quality
+                        var file = this.src.split('/').pop();
+                        switch (file) {
+                            case 'maxresdefault.jpg':
+                                this.src = this.src.replace(file, 'sddefault.jpg');
+                                break;
+                            case 'sddefault.jpg':
+                                this.src = this.src.replace(file, 'hqdefault.jpg');
+                                break;
+                            case 'hqdefault.jpg':
+                                this.src = this.src.replace(file, 'default.jpg');
+                                break;
+                            default:
+                                cache[id] = null;
+                                def.reject('Preview image not found.');
+                                break;
+                        }
+                    } else {
+                        def.resolve(cache[id] = this.src);
+                    }
+                }).attr('src', getPreviewUrl(id, 'maxres'));
+            }
+            return def;
+        };
+
+    })();
+    /* Masonry Grid */
+    $(document).on('add.cards change.cards', function(event) {
+
+        function setImgSrc(item) {
+            var $img = item.find('img');
+            var $modalImg = item.closest('section').find('.modal-dialog .carousel-inner .carousel-item').eq($img.closest('.mbr-gallery-item').index()).find('img');
+            if (item.hasClass('video-slide')) {
+                var videoId = getVideoId(item.attr('data-video-url'));
+                getPreviewUrlWithBestQuality(videoId).done(function(url) {
+                    $img.attr('src', url).css('visibility', 'visible');
+                    $modalImg.attr('src', url);
+                });
+            }
+            return videoId;
+        };
+
+>>>>>>> gh-pages
         var $section = $(event.target),
             allItem = $section.find('.mbr-gallery-filter-all');
         if (!$section.hasClass('mbr-slider-carousel')) return;
         var filterList = [];
 
+<<<<<<< HEAD
         $section.find('.mbr-gallery-item').each(function (el) {
             var tagsAttr = ($(this).attr('data-tags') || "").trim();
             var tagsList = tagsAttr.split(',');
             tagsList.map(function (el) {
+=======
+        $section.find('.mbr-gallery-item').each(function(el) {
+            var tagsAttr = ($(this).attr('data-tags')||"").trim();
+            var tagsList = tagsAttr.split(',');
+            tagsList.map(function(el) {
+>>>>>>> gh-pages
                 var tag = el.trim();
 
                 if ($.inArray(tag, filterList) == -1)
@@ -82,11 +168,19 @@
         if ($section.find('.mbr-gallery-filter').length > 0 && $(event.target).find('.mbr-gallery-filter').hasClass('gallery-filter-active')) {
             var filterHtml = '';
             $section.find('.mbr-gallery-filter ul li:not(li:eq(0))').remove();
+<<<<<<< HEAD
             filterList.map(function (el) {
                 filterHtml += '<li>' + el + '</li>'
             });
             $section.find('.mbr-gallery-filter ul').append(allItem).append(filterHtml);
             $section.on('click', '.mbr-gallery-filter li', function (e) {
+=======
+            filterList.map(function(el) {
+                filterHtml += '<li>' + el + '</li>'
+            });
+            $section.find('.mbr-gallery-filter ul').append(allItem).append(filterHtml);
+            $section.on('click', '.mbr-gallery-filter li', function(e) {
+>>>>>>> gh-pages
                 $li = $(this);
                 $li.parent().find('li').removeClass('active')
                 $li.addClass('active');
@@ -94,16 +188,28 @@
                 var $mas = $li.closest('section').find('.mbr-gallery-row');
                 var filter = $li.html().trim();
 
+<<<<<<< HEAD
                 $section.find('.mbr-gallery-item').each(function (i, el) {
                     var $elem = $(this);
                     var tagsAttr = $elem.attr('data-tags');
                     var tags = tagsAttr.split(',');
                     tagsTrimmed = tags.map(function (el) {
+=======
+                $section.find('.mbr-gallery-item').each(function(i, el) {
+                    var $elem = $(this);
+                    var tagsAttr = $elem.attr('data-tags');
+                    var tags = tagsAttr.split(',');
+                    tagsTrimmed = tags.map(function(el) {
+>>>>>>> gh-pages
                         return el.trim();
                     })
                     if ($.inArray(filter, tagsTrimmed) == -1 && !$li.hasClass('mbr-gallery-filter-all')) {
                         $elem.addClass('mbr-gallery-item__hided');
+<<<<<<< HEAD
                         setTimeout(function () {
+=======
+                        setTimeout(function() {
+>>>>>>> gh-pages
                             $elem.css('left', '300px');
                         }, 200);
                     } else {
@@ -111,7 +217,11 @@
                     };
 
                 })
+<<<<<<< HEAD
                 setTimeout(function () {
+=======
+                setTimeout(function() {
+>>>>>>> gh-pages
                     $mas.closest('.mbr-gallery-row').trigger('filter');
                 }, 50);
             })
@@ -121,21 +231,33 @@
         }
         if (!isBuilder) {
 
+<<<<<<< HEAD
             $section.find('.video-slide').each(function (i) {
                 var index = $(this).closest('.mbr-gallery-item').index();
 
                // setImgSrc($(this));
+=======
+            $section.find('.video-slide').each(function(i) {
+                var index = $(this).closest('.mbr-gallery-item').index();
+
+                setImgSrc($(this));
+>>>>>>> gh-pages
             });
         }
 
         if (typeof $.fn.masonry !== 'undefined') {
+<<<<<<< HEAD
             $section.outerFind('.mbr-gallery').each(function () {
+=======
+            $section.outerFind('.mbr-gallery').each(function() {
+>>>>>>> gh-pages
                 var $msnr = $(this).find('.mbr-gallery-row').masonry({
                     itemSelector: '.mbr-gallery-item:not(.mbr-gallery-item__hided)',
                     percentPosition: true
                 });
                 // reload masonry (need for adding new or resort items)
                 $msnr.masonry('reloadItems');
+<<<<<<< HEAD
                 $msnr.on('filter', function () {
                     $msnr.masonry('reloadItems');
                     $msnr.masonry('layout');
@@ -144,12 +266,26 @@
                 }.bind(this, $msnr))
                 // layout Masonry after each image loads
                 $msnr.imagesLoaded().progress(function () {
+=======
+                $msnr.on('filter', function() {
+                        $msnr.masonry('reloadItems');
+                        $msnr.masonry('layout');
+                        // update parallax backgrounds
+                        $(window).trigger('update.parallax')
+                    }.bind(this, $msnr))
+                    // layout Masonry after each image loads
+                $msnr.imagesLoaded().progress(function() {
+>>>>>>> gh-pages
                     $msnr.masonry('layout');
                 });
             });
         }
     });
+<<<<<<< HEAD
     $('.mbr-gallery-item').on('click', 'a', function (e) {
+=======
+    $('.mbr-gallery-item').on('click','a',function(e){
+>>>>>>> gh-pages
         e.stopPropagation();
     })
     var timeout;
@@ -171,7 +307,11 @@
         var bottomPadding = 10;
         var wndW = $(window).width() - windowPadding * 2;
         var wndH = $(window).height() - windowPadding * 2;
+<<<<<<< HEAD
         $lightbox.each(function () {
+=======
+        $lightbox.each(function() {
+>>>>>>> gh-pages
             var setWidth, setTop;
             var isShown = $(this).hasClass('in');
             var $modalDialog = $(this).find('.modal-dialog');
@@ -210,20 +350,32 @@
 
     /* pause/start video on different events and fit lightbox */
     var $window = $(document).find('.mbr-gallery');
+<<<<<<< HEAD
     $window.on('show.bs.modal', function (e) {
 
         clearTimeout(timeout2);
         var timeout2 = setTimeout(function () {
+=======
+    $window.on('show.bs.modal', function(e) {
+
+        clearTimeout(timeout2);
+        var timeout2 = setTimeout(function() {
+>>>>>>> gh-pages
             var index = $(e.relatedTarget).parent().index();
             var slide = $(e.target).find('.carousel-item').eq(index).find('.mbr-background-video');
             $(e.target).find('.carousel-item .mbr-background-video')
             if (slide.length > 0) {
+<<<<<<< HEAD
                 var player =  players[+slide.attr('data-video-num')];
                 player.playVideo?player.playVideo():player.play();
+=======
+                players[+slide.attr('data-video-num')].playVideo();
+>>>>>>> gh-pages
             }
         }, 500);
         fitLBtimeout();
     })
+<<<<<<< HEAD
     $window.on('slide.bs.carousel', function (e) {
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
         if (ytv.length > 0) {
@@ -246,3 +398,25 @@
         });
     });
 } (jQuery));
+=======
+    $window.on('slide.bs.carousel', function(e) {
+        var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
+        if (ytv.length > 0) {
+            players[+ytv.attr('data-video-num')].pauseVideo();
+        }
+    });
+    $(window).on('resize load', fitLBtimeout);
+    $window.on('slid.bs.carousel', function(e) {
+        var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
+        if (ytv.length > 0) {
+            players[+ytv.attr('data-video-num')].playVideo();
+        }
+        fitLBtimeout();
+    });
+    $window.on('hide.bs.modal', function(e) {
+        players.map(function(player, i) {
+            player.pauseVideo();
+        });
+    });
+}(jQuery));
+>>>>>>> gh-pages
