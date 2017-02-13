@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 (function ($) {
     
 =======
 (function($) {
 
+>>>>>>> gh-pages
+=======
+(function ($) {
+    
 >>>>>>> gh-pages
     var isBuilder = $('html').hasClass('is-builder');
     if (!isBuilder) {
@@ -23,6 +28,7 @@
         }
         /* google iframe api init function */
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.onYouTubeIframeAPIReady = function () {
             var ytp = ytp || {};
             ytp.YTAPIReady || (ytp.YTAPIReady = !0,
@@ -35,11 +41,21 @@
                 jQuery(document).trigger("YTAPIReady"));
             $('.video-slide').each(function(i) {
 >>>>>>> gh-pages
+=======
+        window.onYouTubeIframeAPIReady = function () {
+            var ytp = ytp || {};
+            ytp.YTAPIReady || (ytp.YTAPIReady = !0,
+                jQuery(document).trigger("YTAPIReady"));
+            $('.video-slide').each(function (i) {
+>>>>>>> gh-pages
                 var index = $(this).index();
                 var section = $(this).closest('section');
                 $('.video-container').eq(i).append('<div id ="mbr-video-' + i + '" class="mbr-background-video" data-video-num="' + i + '"></div>')
                     .append('<div class="item-overlay"></div>');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
                      $(this).attr('data-video-num', i);
                 if ($(this).attr('data-video-url').indexOf('vimeo.com') != -1) {
                     var options = {
@@ -53,8 +69,11 @@
                     player.playVideo = Vimeo.play;
                 } else {
                
+<<<<<<< HEAD
 =======
                 $(this).attr('data-video-num', i);
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
                 var player = new YT.Player('mbr-video-' + i, {
                     height: '100%',
@@ -64,9 +83,13 @@
                         'onReady': onPlayerReady,
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 })}
 =======
                 })
+>>>>>>> gh-pages
+=======
+                })}
 >>>>>>> gh-pages
                 players.push(player);
             });
@@ -83,6 +106,7 @@
                 (quality || '') + 'default.jpg';
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     /* Masonry Grid */
     $(document).on('add.cards change.cards', function (event) {
@@ -143,11 +167,16 @@
         };
 
 >>>>>>> gh-pages
+=======
+    /* Masonry Grid */
+    $(document).on('add.cards change.cards', function (event) {
+>>>>>>> gh-pages
         var $section = $(event.target),
             allItem = $section.find('.mbr-gallery-filter-all');
         if (!$section.hasClass('mbr-slider-carousel')) return;
         var filterList = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $section.find('.mbr-gallery-item').each(function (el) {
             var tagsAttr = ($(this).attr('data-tags') || "").trim();
@@ -159,6 +188,12 @@
             var tagsList = tagsAttr.split(',');
             tagsList.map(function(el) {
 >>>>>>> gh-pages
+=======
+        $section.find('.mbr-gallery-item').each(function (el) {
+            var tagsAttr = ($(this).attr('data-tags') || "").trim();
+            var tagsList = tagsAttr.split(',');
+            tagsList.map(function (el) {
+>>>>>>> gh-pages
                 var tag = el.trim();
 
                 if ($.inArray(tag, filterList) == -1)
@@ -168,6 +203,7 @@
         if ($section.find('.mbr-gallery-filter').length > 0 && $(event.target).find('.mbr-gallery-filter').hasClass('gallery-filter-active')) {
             var filterHtml = '';
             $section.find('.mbr-gallery-filter ul li:not(li:eq(0))').remove();
+<<<<<<< HEAD
 <<<<<<< HEAD
             filterList.map(function (el) {
                 filterHtml += '<li>' + el + '</li>'
@@ -181,6 +217,13 @@
             $section.find('.mbr-gallery-filter ul').append(allItem).append(filterHtml);
             $section.on('click', '.mbr-gallery-filter li', function(e) {
 >>>>>>> gh-pages
+=======
+            filterList.map(function (el) {
+                filterHtml += '<li>' + el + '</li>'
+            });
+            $section.find('.mbr-gallery-filter ul').append(allItem).append(filterHtml);
+            $section.on('click', '.mbr-gallery-filter li', function (e) {
+>>>>>>> gh-pages
                 $li = $(this);
                 $li.parent().find('li').removeClass('active')
                 $li.addClass('active');
@@ -188,6 +231,7 @@
                 var $mas = $li.closest('section').find('.mbr-gallery-row');
                 var filter = $li.html().trim();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $section.find('.mbr-gallery-item').each(function (i, el) {
                     var $elem = $(this);
@@ -201,14 +245,25 @@
                     var tags = tagsAttr.split(',');
                     tagsTrimmed = tags.map(function(el) {
 >>>>>>> gh-pages
+=======
+                $section.find('.mbr-gallery-item').each(function (i, el) {
+                    var $elem = $(this);
+                    var tagsAttr = $elem.attr('data-tags');
+                    var tags = tagsAttr.split(',');
+                    tagsTrimmed = tags.map(function (el) {
+>>>>>>> gh-pages
                         return el.trim();
                     })
                     if ($.inArray(filter, tagsTrimmed) == -1 && !$li.hasClass('mbr-gallery-filter-all')) {
                         $elem.addClass('mbr-gallery-item__hided');
 <<<<<<< HEAD
+<<<<<<< HEAD
                         setTimeout(function () {
 =======
                         setTimeout(function() {
+>>>>>>> gh-pages
+=======
+                        setTimeout(function () {
 >>>>>>> gh-pages
                             $elem.css('left', '300px');
                         }, 200);
@@ -218,9 +273,13 @@
 
                 })
 <<<<<<< HEAD
+<<<<<<< HEAD
                 setTimeout(function () {
 =======
                 setTimeout(function() {
+>>>>>>> gh-pages
+=======
+                setTimeout(function () {
 >>>>>>> gh-pages
                     $mas.closest('.mbr-gallery-row').trigger('filter');
                 }, 50);
@@ -232,6 +291,7 @@
         if (!isBuilder) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $section.find('.video-slide').each(function (i) {
                 var index = $(this).closest('.mbr-gallery-item').index();
 
@@ -242,14 +302,24 @@
 
                 setImgSrc($(this));
 >>>>>>> gh-pages
+=======
+            $section.find('.video-slide').each(function (i) {
+                var index = $(this).closest('.mbr-gallery-item').index();
+
+               // setImgSrc($(this));
+>>>>>>> gh-pages
             });
         }
 
         if (typeof $.fn.masonry !== 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $section.outerFind('.mbr-gallery').each(function () {
 =======
             $section.outerFind('.mbr-gallery').each(function() {
+>>>>>>> gh-pages
+=======
+            $section.outerFind('.mbr-gallery').each(function () {
 >>>>>>> gh-pages
                 var $msnr = $(this).find('.mbr-gallery-row').masonry({
                     itemSelector: '.mbr-gallery-item:not(.mbr-gallery-item__hided)',
@@ -258,6 +328,9 @@
                 // reload masonry (need for adding new or resort items)
                 $msnr.masonry('reloadItems');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
                 $msnr.on('filter', function () {
                     $msnr.masonry('reloadItems');
                     $msnr.masonry('layout');
@@ -266,6 +339,7 @@
                 }.bind(this, $msnr))
                 // layout Masonry after each image loads
                 $msnr.imagesLoaded().progress(function () {
+<<<<<<< HEAD
 =======
                 $msnr.on('filter', function() {
                         $msnr.masonry('reloadItems');
@@ -276,15 +350,21 @@
                     // layout Masonry after each image loads
                 $msnr.imagesLoaded().progress(function() {
 >>>>>>> gh-pages
+=======
+>>>>>>> gh-pages
                     $msnr.masonry('layout');
                 });
             });
         }
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     $('.mbr-gallery-item').on('click', 'a', function (e) {
 =======
     $('.mbr-gallery-item').on('click','a',function(e){
+>>>>>>> gh-pages
+=======
+    $('.mbr-gallery-item').on('click', 'a', function (e) {
 >>>>>>> gh-pages
         e.stopPropagation();
     })
@@ -308,9 +388,13 @@
         var wndW = $(window).width() - windowPadding * 2;
         var wndH = $(window).height() - windowPadding * 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lightbox.each(function () {
 =======
         $lightbox.each(function() {
+>>>>>>> gh-pages
+=======
+        $lightbox.each(function () {
 >>>>>>> gh-pages
             var setWidth, setTop;
             var isShown = $(this).hasClass('in');
@@ -351,6 +435,7 @@
     /* pause/start video on different events and fit lightbox */
     var $window = $(document).find('.mbr-gallery');
 <<<<<<< HEAD
+<<<<<<< HEAD
     $window.on('show.bs.modal', function (e) {
 
         clearTimeout(timeout2);
@@ -361,20 +446,32 @@
         clearTimeout(timeout2);
         var timeout2 = setTimeout(function() {
 >>>>>>> gh-pages
+=======
+    $window.on('show.bs.modal', function (e) {
+
+        clearTimeout(timeout2);
+        var timeout2 = setTimeout(function () {
+>>>>>>> gh-pages
             var index = $(e.relatedTarget).parent().index();
             var slide = $(e.target).find('.carousel-item').eq(index).find('.mbr-background-video');
             $(e.target).find('.carousel-item .mbr-background-video')
             if (slide.length > 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 var player =  players[+slide.attr('data-video-num')];
                 player.playVideo?player.playVideo():player.play();
 =======
                 players[+slide.attr('data-video-num')].playVideo();
 >>>>>>> gh-pages
+=======
+                var player =  players[+slide.attr('data-video-num')];
+                player.playVideo?player.playVideo():player.play();
+>>>>>>> gh-pages
             }
         }, 500);
         fitLBtimeout();
     })
+<<<<<<< HEAD
 <<<<<<< HEAD
     $window.on('slide.bs.carousel', function (e) {
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
@@ -400,23 +497,32 @@
 } (jQuery));
 =======
     $window.on('slide.bs.carousel', function(e) {
+=======
+    $window.on('slide.bs.carousel', function (e) {
+>>>>>>> gh-pages
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
         if (ytv.length > 0) {
-            players[+ytv.attr('data-video-num')].pauseVideo();
+            var player =  players[+ytv.attr('data-video-num')];
+            player.pauseVideo?player.pauseVideo():player.pause();
         }
     });
     $(window).on('resize load', fitLBtimeout);
-    $window.on('slid.bs.carousel', function(e) {
+    $window.on('slid.bs.carousel', function (e) {
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
         if (ytv.length > 0) {
-            players[+ytv.attr('data-video-num')].playVideo();
+            var player =  players[+ytv.attr('data-video-num')];
+            player.playVideo?player.playVideo():player.play();
         }
         fitLBtimeout();
     });
-    $window.on('hide.bs.modal', function(e) {
-        players.map(function(player, i) {
-            player.pauseVideo();
+    $window.on('hide.bs.modal', function (e) {
+        players.map(function (player, i) {
+            player.pauseVideo?player.pauseVideo():player.pause();
         });
     });
+<<<<<<< HEAD
 }(jQuery));
+>>>>>>> gh-pages
+=======
+} (jQuery));
 >>>>>>> gh-pages
