@@ -485,8 +485,13 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+<<<<<<< HEAD
                 "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/kasticket.jpg",
+=======
+                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/kasticket.png",
+>>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": true
               },
@@ -498,7 +503,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.png",
                 "image": "@PROJECT_PATH@/assets/images/sla.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "1",
@@ -766,7 +771,11 @@
             "slides": [
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4052-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-7.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -780,7 +789,11 @@
               },
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4054-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-8.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -794,7 +807,11 @@
               },
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4050-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-9.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -808,7 +825,11 @@
               },
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4049-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-10.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -822,7 +843,11 @@
               },
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4047-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-11.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -836,7 +861,11 @@
               },
               {
                 "active": false,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4051-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-12.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -850,7 +879,11 @@
               },
               {
                 "active": true,
+<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4053-copy.jpg",
+=======
+                "image": "@PROJECT_PATH@/assets/images/dsc-13.png",
+>>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
