@@ -766,7 +766,7 @@
             "slides": [
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-7.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -780,7 +780,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc-1.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-8.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -794,7 +794,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc-2.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -808,7 +808,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc-3.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-10.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -822,7 +822,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc-4.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-11.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -836,7 +836,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc-5.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-12.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -850,7 +850,7 @@
               },
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dsc-6.png",
+                "image": "@PROJECT_PATH@/assets/images/dsc-13.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
