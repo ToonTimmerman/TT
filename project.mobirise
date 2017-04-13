@@ -22,10 +22,10 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 35,
+    "uniqCompNum": 42,
     "versionPublish": "3.12",
     "favicon": "",
-    "noImageResize": "",
+    "noImageResize": "true",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-88317205-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
   },
@@ -52,7 +52,9 @@
               "color": "#fa6bcc"
             },
             ".link, .dropdown-item": {
-              "color": "#fa6bcc"
+              "color": "#fa6bcc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -101,7 +103,11 @@
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
             "fontColor": "#fa6bcc",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -126,7 +132,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -155,11 +161,15 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#ffffff",
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".mbr-section-lead": {
               "color": "#ffffff",
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_tags": [
@@ -196,12 +206,13 @@
               "text-align": "center"
             },
             "H3": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             "SMALL": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#000000"
             }
           },
           "_tags": [
@@ -349,11 +360,20 @@
             },
             "P": {
               "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "right"
             }
           },
           "_anchor": "header2-9",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "49",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mop2-2000x2964-97.jpg",
@@ -394,7 +414,7 @@
               "size": 0
             }
           },
-          "title": "&nbsp;WILD WEST",
+          "title": "&nbsp;Wild West",
           "text": "Design a typographic gag on a large format.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
@@ -407,7 +427,13 @@
               "color": "#000000"
             },
             "SMALL": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_tags": [
@@ -422,7 +448,7 @@
             "showMeta": true
           },
           "title": "Record Sleeves",
-          "meta": "Alternate record sleeve designs for Jean-Michel Jarre's \"<b>Music For Supermarkets</b>\" &amp; \"<b>Music for Airports\"</b> by Brian Eno."
+          "meta": "Alternate record sleeve designs for Jean-Michel Jarre's \"<b>Music For Supermarkets</b>\"."
         },
         {
           "_inherit": "gallery1",
@@ -439,8 +465,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-2000x2000-22-2000x2000-52.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kartonsla-2000x2000-22.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/kartonsla.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -449,18 +475,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/boemkool-2000x2000-84-2000x2000-13.jpg",
-                "image": "@PROJECT_PATH@/assets/images/boemkool-2000x2000-84.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/boemkool.png",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Beautiful",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kasticket-2000x2000-61-2000x2000-92.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kasticket-2000x2000-61.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/kasticket.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -469,13 +495,13 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sla-2482x2448-17.png",
-                "image": "@PROJECT_PATH@/assets/images/sla.gif",
+                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/sla.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
-            "spacing": "0",
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#ffffff",
@@ -493,7 +519,13 @@
               "text-align": "center"
             },
             "SMALL": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_tags": [
@@ -525,8 +557,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/16735843-10212507461467239-2055198366-n-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16735843-10212507461467239-2055198366-n-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/16735843-10212507461467239-2055198366-n-800x569.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16735843-10212507461467239-2055198366-n.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -535,8 +567,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-1-800x578.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -545,8 +577,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/16651799-10212507461587242-1004182166-n-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16651799-10212507461587242-1004182166-n-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/16651799-10212507461587242-1004182166-n-800x562.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16651799-10212507461587242-1004182166-n.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -555,8 +587,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n-800x566.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -582,7 +614,13 @@
               "color": "#000000"
             },
             "SMALL": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_tags": [
@@ -682,6 +720,327 @@
           "articleLayout": false
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-14",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Cosmic View: <span style=\"font-weight: normal;\">The Universe in 89 Cups</span>",
+          "meta": "Create a collection of at least 80 objects and create a catalogue using the objects as main guidance next to external images and texts."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-1.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-2.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-3.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-4.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-5.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc-6.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "bgColor": "#fff",
+            "showBullets": false
+          },
+          "_anchor": "slider2-15"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-11",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "<span style=\"font-weight: normal;\">The New York Times:</span><div>Make America Gay Again</div>",
+          "meta": "Take up a certain pro or contra-Clinton/Trump opinion and create an alternate design for <br>The New York Times or The Chigaco Tribune."
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/25.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads2-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads2.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads3-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads4-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads4.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads5-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads5.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads6-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads6.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads7-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads7.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads8-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads8.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads9-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads9.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads10-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads10.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads11-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads11.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads12-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/spreads12.png",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-12",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
           "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F179139996",
           "alias": "soundcloud",
           "_tags": [
@@ -705,7 +1064,8 @@
             ".mbr-section-title": {
               "font-family": "'Roboto Condensed', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-size": "23px"
+              "font-size": "23px",
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -716,11 +1076,11 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/timmermanklein.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
@@ -794,7 +1154,11 @@
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
             "fontColor": "#fa6bcc",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -819,7 +1183,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -909,7 +1273,11 @@
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
             "fontColor": "#fa6bcc",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -934,7 +1302,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
