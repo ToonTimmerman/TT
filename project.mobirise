@@ -34,7 +34,7 @@
       "settings": {
         "main": true,
         "title": "",
-        "meta_descr": "",
+        "meta_descr": "copyright, Toon Timmerman, Toon, Timmerman",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -154,7 +154,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         },
         {
           "_inherit": "header1",
@@ -1085,13 +1085,15 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "FOLLOW ME",
+          "text": "FOLLOW/CONTACT ME",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/timmermangent\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://soundcloud.com/toontimmerman\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-soundcloud mbr-iconfont mbr-iconfont-btn\"></span></a>        "
         }
       ]
     },
     "page1.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1105,7 +1107,9 @@
               "color": "#fa6bcc"
             },
             ".link, .dropdown-item": {
-              "color": "#fa6bcc"
+              "color": "#fa6bcc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1205,7 +1209,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         }
       ]
     },
@@ -1224,7 +1228,9 @@
               "color": "#fa6bcc"
             },
             ".link, .dropdown-item": {
-              "color": "#fa6bcc"
+              "color": "#fa6bcc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1324,7 +1330,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         }
       ]
     }
