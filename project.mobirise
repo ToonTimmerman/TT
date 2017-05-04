@@ -34,7 +34,7 @@
       "settings": {
         "main": true,
         "title": "",
-        "meta_descr": "",
+        "meta_descr": "copyright, Toon Timmerman, Toon, Timmerman",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -154,7 +154,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         },
         {
           "_inherit": "header1",
@@ -485,13 +485,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
                 "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/kasticket.jpg",
-=======
-                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/kasticket.png",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": true
               },
@@ -503,7 +498,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.png",
                 "image": "@PROJECT_PATH@/assets/images/sla.png",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
@@ -771,11 +766,7 @@
             "slides": [
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4052-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-7.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -789,11 +780,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4054-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-8.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -807,11 +794,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4050-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-9.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -825,11 +808,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4049-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-10.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -843,11 +822,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4047-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-11.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -861,11 +836,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4051-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-12.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -879,11 +850,7 @@
               },
               {
                 "active": true,
-<<<<<<< HEAD
                 "image": "@PROJECT_PATH@/assets/images/dsc-4053-copy.jpg",
-=======
-                "image": "@PROJECT_PATH@/assets/images/dsc-13.png",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -1118,13 +1085,15 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "FOLLOW ME",
+          "text": "FOLLOW/CONTACT ME",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/timmermangent\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://soundcloud.com/toontimmerman\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-soundcloud mbr-iconfont mbr-iconfont-btn\"></span></a>        "
         }
       ]
     },
     "page1.html": {
-      "settings": {},
+      "settings": {
+        "title": ""
+      },
       "components": [
         {
           "_styles": {
@@ -1138,7 +1107,9 @@
               "color": "#fa6bcc"
             },
             ".link, .dropdown-item": {
-              "color": "#fa6bcc"
+              "color": "#fa6bcc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1238,7 +1209,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         }
       ]
     },
@@ -1257,7 +1228,9 @@
               "color": "#fa6bcc"
             },
             ".link, .dropdown-item": {
-              "color": "#fa6bcc"
+              "color": "#fa6bcc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1357,7 +1330,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Toon Timmerman."
+          "text": "Copyright (c) 2017 Toon Timmerman."
         }
       ]
     }

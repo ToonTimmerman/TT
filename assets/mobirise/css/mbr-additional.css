@@ -623,6 +623,7 @@ h6,
   font-size: 23px;
   color: #ffffff;
 }
+
 #menu-b .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -635,6 +636,7 @@ h6,
 #menu-b .link,
 #menu-b .dropdown-item {
   color: #fa6bcc;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-b .link {
   font-size: 0.75rem;
@@ -693,6 +695,7 @@ h6,
 #footer1-c P {
   color: #ff37dc;
 }
+
 #menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -705,6 +708,7 @@ h6,
 #menu-d .link,
 #menu-d .dropdown-item {
   color: #fa6bcc;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-d .link {
   font-size: 0.75rem;
