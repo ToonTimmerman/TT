@@ -132,7 +132,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -610,78 +610,6 @@
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
-            "B": {
-              "color": "#000000"
-            },
-            "SMALL": {
-              "color": "#000000",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            "H3": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-u",
-          "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "Istanbul Ekspres",
-          "meta": "Alternate poster designs for the Istanbul Ekspres film festival in Ghent with a new graphic identity."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_styles": {
-            ".btn": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700",
-              "font-size": "10px"
-            }
-          },
-          "_params": {
-            "autoplay": false,
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2016-12-01-om-16-2000x920-40.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "ISTANBUL EKSPRES",
-                "showText": false,
-                "text": "Alternate poster designs for the Istanbul Ekspres film festival in Ghent.&nbsp;",
-                "showButtons": false,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://www.handelsbeurs.be/nl/formats-and-festivals/detail/istanbul-ekspres\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Website</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": false
-          },
-          "_anchor": "slider3-r",
-          "articleLayout": false
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
             "H3": {
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
@@ -1145,7 +1073,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -1266,7 +1194,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-u\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
