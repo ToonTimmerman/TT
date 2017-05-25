@@ -197,7 +197,7 @@
             "showButtons": false
           },
           "title": "TIMMERMAN",
-          "text": "Graphic Design&nbsp;<br>Luca School of Arts",
+          "text": "Graphic Design&nbsp;<br>LUCA School of Arts",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
         },
         {
@@ -244,18 +244,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/25.png",
+                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/25.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads2-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads2.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads2-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -264,8 +264,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads3-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads3.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads3-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads3.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -274,8 +274,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads4-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads4.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads4-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads4.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -284,8 +284,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads5-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads5.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads5-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads5.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -294,8 +294,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads6-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads6.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads6-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads6.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -304,8 +304,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads7-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads7.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads7-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads7.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -314,8 +314,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads8-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads8.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads8-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads8.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -324,8 +324,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads9-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads9.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads9-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads9.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -334,8 +334,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads10-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads10.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads10-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads10.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -344,8 +344,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads11-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads11.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads11-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads11.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -354,10 +354,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads12-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/spreads12.png",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads12-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads12.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "1",
@@ -365,7 +365,7 @@
             "filter": false,
             "bgColor": "#ffffff",
             "filterBgColor": true,
-            "fullWidth": true,
+            "fullWidth": false,
             "showBullets": true
           },
           "_anchor": "gallery3-12",
