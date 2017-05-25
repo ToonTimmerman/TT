@@ -197,7 +197,7 @@
             "showButtons": false
           },
           "title": "TIMMERMAN",
-          "text": "Graphic Design&nbsp;<br>Luca School of Arts",
+          "text": "Graphic Design&nbsp;<br>LUCA School of Arts",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
         },
         {
@@ -365,7 +365,7 @@
             "filter": false,
             "bgColor": "#ffffff",
             "filterBgColor": true,
-            "fullWidth": true,
+            "fullWidth": false,
             "showBullets": true
           },
           "_anchor": "gallery3-12",
