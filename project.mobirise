@@ -656,12 +656,32 @@
             "paddingBottom": "0",
             "images": [
               {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kasticket.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kartonsla.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800-1.png",
-                "image": "@PROJECT_PATH@/assets/images/kartonsla-1.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sla.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -670,28 +690,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800-1.png",
-                "image": "@PROJECT_PATH@/assets/images/boemkool-1.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kasticket-1.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800-1.png",
-                "image": "@PROJECT_PATH@/assets/images/sla-1.png",
+                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boemkool.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
