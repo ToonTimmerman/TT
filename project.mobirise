@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 47,
+    "uniqCompNum": 48,
     "versionPublish": "3.12",
     "favicon": "",
     "noImageResize": "true",
@@ -368,7 +368,7 @@
             "fullWidth": false,
             "showBullets": true
           },
-          "_anchor": "gallery3-19",
+          "_anchor": "gallery3-1b",
           "articleLayout": false,
           "allItem": "All"
         },
