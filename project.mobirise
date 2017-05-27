@@ -244,10 +244,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/25.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.png",
+                "image": "@PROJECT_PATH@/assets/images/25.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -357,7 +357,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/spreads12-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads12.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
