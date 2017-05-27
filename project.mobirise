@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 45,
+    "uniqCompNum": 46,
     "versionPublish": "3.12",
     "favicon": "",
     "noImageResize": "true",
@@ -244,8 +244,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/25-800x525.png",
-                "image": "@PROJECT_PATH@/assets/images/25.png",
+                "thumb": "@PROJECT_PATH@/assets/images/25-3-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/25-3.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -254,8 +254,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads2-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pagina2-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pagina2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -264,8 +264,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads3-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads3-800x525-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads3-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -274,8 +274,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads4-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads4-800x525-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads4-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -284,8 +284,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads5-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads5.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads5-800x525-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads5-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -294,8 +294,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads6-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads6.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads6-1-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads6-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -304,8 +304,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads7-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads7.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads7-800x525-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads7-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -314,8 +314,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads8-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads8.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads8-800x525-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads8-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -324,8 +324,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads9-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads9.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads9-2-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads9-2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -334,8 +334,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/spreads10-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads10.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/spreads10-2-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/spreads10-2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -368,7 +368,7 @@
             "fullWidth": false,
             "showBullets": true
           },
-          "_anchor": "gallery3-17",
+          "_anchor": "gallery3-19",
           "articleLayout": false,
           "allItem": "All"
         },
