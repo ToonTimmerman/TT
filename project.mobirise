@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 44,
+    "uniqCompNum": 45,
     "versionPublish": "3.12",
     "favicon": "",
     "noImageResize": "true",
@@ -660,8 +660,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/kartonsla.png",
+                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800-1.png",
+                "image": "@PROJECT_PATH@/assets/images/kartonsla-1.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -670,8 +670,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/boemkool.png",
+                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800-1.png",
+                "image": "@PROJECT_PATH@/assets/images/boemkool-1.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -680,8 +680,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kasticket.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kasticket-1.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -690,8 +690,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/sla.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800-1.png",
+                "image": "@PROJECT_PATH@/assets/images/sla-1.png",
                 "caption": "Type caption here",
                 "active": false
               }
@@ -704,7 +704,7 @@
             "fullWidth": false,
             "showBullets": false
           },
-          "_anchor": "gallery3-o",
+          "_anchor": "gallery3-18",
           "articleLayout": false,
           "allItem": "All"
         },
