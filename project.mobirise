@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 42,
+    "uniqCompNum": 44,
     "versionPublish": "3.12",
     "favicon": "",
     "noImageResize": "true",
@@ -219,7 +219,7 @@
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-11",
+          "_anchor": "header3-16",
           "_params": {
             "paddingTop": "3",
             "paddingBottom": "0",
@@ -368,7 +368,7 @@
             "fullWidth": false,
             "showBullets": true
           },
-          "_anchor": "gallery3-12",
+          "_anchor": "gallery3-17",
           "articleLayout": false,
           "allItem": "All"
         },
