@@ -660,8 +660,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kasticket-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kasticket.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kasticket-1-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kasticket-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -670,18 +670,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kartonsla.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kartonsla-1-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kartonsla-1.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sla-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/sla.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sla-1-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sla-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -690,10 +690,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/boemkool-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/boemkool.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/boemkool-1-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boemkool-1.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "1",
