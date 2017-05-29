@@ -132,7 +132,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-14\">Cosmic View</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-16\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -154,7 +154,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Toon Timmerman."
+          "text": "Copyright © 2017 Toon Timmerman"
         },
         {
           "_inherit": "header1",
