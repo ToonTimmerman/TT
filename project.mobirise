@@ -257,7 +257,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pagina2-2-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/pagina2-2.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -357,7 +357,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/spreads12-6-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads12-6.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
