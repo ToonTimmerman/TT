@@ -22,13 +22,8 @@
       }
     },
     "versionFirst": "3.8.5",
-<<<<<<< HEAD
-    "uniqCompNum": 48,
-    "versionPublish": "3.12",
-=======
     "uniqCompNum": 50,
     "versionPublish": "3.12.1",
->>>>>>> gh-pages
     "favicon": "",
     "noImageResize": "true",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -137,7 +132,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-11\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-5\">ABCdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-9\">Wild West</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-p\">Record Sleeves</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-y\">BILD Hamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-14\">Cosmic View</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-16\">The New York Times</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#soundcloud1-f\">Music</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -159,7 +154,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Toon Timmerman."
+          "text": "Copyright © 2017 Toon Timmerman"
         },
         {
           "_inherit": "header1",
@@ -249,13 +244,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/25-4-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/25-4.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/25-7-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/25-7.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -264,13 +254,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/pagina2-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/pagina2-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/pagina2-2-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/pagina2-2.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": true
               },
@@ -279,13 +264,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads3-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads3-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads3-3-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads3-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -294,13 +274,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads5-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads5-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads4-3-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads4-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -309,13 +284,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads4-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads4-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads5-3-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads5-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -324,13 +294,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads6-2-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads6-2.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads6-4-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads6-4.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -339,13 +304,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads7-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads7-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads7-3-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads7-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -354,13 +314,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads8-1-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads8-1.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads8-3-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads8-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -369,13 +324,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads9-3-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads9-3.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads9-5-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads9-5.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -384,13 +334,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads10-3-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads10-3.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads10-5-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads10-5.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -399,13 +344,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads11-2-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads11-2.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads11-4-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads11-4.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
                 "active": false
               },
@@ -414,15 +354,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/spreads12-4-800x525.jpg",
-                "image": "@PROJECT_PATH@/assets/images/spreads12-4.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/spreads12-6-800x526.jpg",
                 "image": "@PROJECT_PATH@/assets/images/spreads12-6.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
@@ -433,11 +368,7 @@
             "fullWidth": false,
             "showBullets": true
           },
-<<<<<<< HEAD
-          "_anchor": "gallery3-1b",
-=======
           "_anchor": "gallery3-1d",
->>>>>>> gh-pages
           "articleLayout": false,
           "allItem": "All"
         },
@@ -488,11 +419,7 @@
             "slides": [
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4052-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4052-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -506,11 +433,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4054-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4054-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -524,11 +447,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4050-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4050-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -542,11 +461,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4049-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4049-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -560,11 +475,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4047-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4047-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -578,11 +489,7 @@
               },
               {
                 "active": false,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4051-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4051-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -596,11 +503,7 @@
               },
               {
                 "active": true,
-<<<<<<< HEAD
-                "image": "@PROJECT_PATH@/assets/images/dsc-4053-copy-1.jpg",
-=======
                 "image": "@PROJECT_PATH@/assets/images/dsc-4053-copy-2.jpg",
->>>>>>> gh-pages
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -672,15 +575,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-<<<<<<< HEAD
-                "thumb": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-2-800x578.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-2.jpg",
-=======
                 "thumb": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-3-800x579.jpg",
                 "image": "@PROJECT_PATH@/assets/images/16736110-10212507461907250-429776759-n-3.jpg",
->>>>>>> gh-pages
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Beautiful",
@@ -700,7 +598,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n-1-800x566.jpg",
                 "image": "@PROJECT_PATH@/assets/images/16700107-10212507461747246-1386419945-n-1.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "4",
